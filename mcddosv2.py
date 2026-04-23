@@ -18,7 +18,7 @@ ASCII_ART = """
  | |\/| |/ _` | | '_ \| '_ \ / _` | '_ \| __| | |  | | |  | |  |  | 
  | |  | | (_| | | | | | | | | (_| | | | | |_  | |__| | |__| |  |  | 
  |_|  |_|__,_|_|_| |_|_| |_|__,_|_| |_|__| |_____/|_____/ ______|
-       Minecraft DDOS Tool V2 - Made by elitestresser.club
+       Minecraft DDOS Tool V2 - Made by Lmg
 """
 
 # Layer 4 UDP Methods (Minecraft-specific)
