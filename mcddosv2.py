@@ -8,7 +8,7 @@ from colorama import init, Fore
 init(autoreset=True)
 
 # Set window title
-print(f"\033]0;Minecraft DDOS Tool V2 By elitestresser.club\007", end="", flush=True)
+print(f"\033]0;Minecraft DDOS Tool V2 By lmgstudios.in\007", end="", flush=True)
 
 # ASCII Art
 ASCII_ART = """
@@ -175,7 +175,7 @@ def main():
         print(Fore.LIGHTBLUE_EX + "\n🔹 Layer 4 UDP Methods 🔹")
         print("  1. UDP Spam  2. UDP Handshake  3. UDP Query")
         method = input(Fore.LIGHTBLUE_EX + "Select method (1-3): ").strip()
-        packet_size = validate_input("Enter packet size (1-65500): ", 1, 65500)
+        packet_size = validate_input("Enter packet size (1-655000): ", 1, 655000)
 
         methods = {
             "1": udp_spam, "2": udp_handshake, "3": udp_query
@@ -189,7 +189,7 @@ def main():
         print(Fore.LIGHTBLUE_EX + "\n🔹 Layer 4 TCP Methods 🔹")
         print("  1. TCP Connect  2. TCP Join  3. TCP Login")
         method = input(Fore.LIGHTBLUE_EX + "Select method (1-3): ").strip()
-        packet_size = validate_input("Enter packet size (1-65500): ", 1, 65500)
+        packet_size = validate_input("Enter packet size (1-655000): ", 1, 655000)
 
         methods = {
             "1": tcp_connect, "2": tcp_join, "3": tcp_login
